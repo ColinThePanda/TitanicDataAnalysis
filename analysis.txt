@@ -1,0 +1,55 @@
+Titanic Data Analysis
+
+All Passengers:
+	Population: 891
+		Survivors: 342
+		Deceased: 549
+	Survival Rate: 38.4%
+Genders:
+	Male:
+		Population: 577
+			Survivors: 109
+			Deceased: 468
+		Survival Rate: 18.9%
+	Female:
+		Population: 314
+			Survivors: 233
+			Deceased: 81
+		Survival Rate: 74.2%
+Classes:
+	First Class:
+		Population: 216
+			Survivors: 136
+			Deceased: 80
+		Survival Rate: 63.0%
+	Second Class:
+		Population: 184
+			Survivors: 87
+			Deceased: 97
+		Survival Rate: 47.3%
+	Third Class:
+		Population: 491
+			Survivors: 119
+			Deceased: 372
+		Survival Rate: 24.2%
+Age Groups:
+	Child (<18):
+		Population: 113
+			Survivors: 61
+			Deceased: 52
+		Survival Rate: 54.0%
+	Adult (18-60):
+		Population: 575
+			Survivors: 222
+			Deceased: 353
+		Survival Rate: 38.6%
+	Seniors (>60):
+		Population: 575
+			Survivors: 222
+			Deceased: 353
+		Survival Rate: 38.6%
+
+Highest Survival Rate Group:
+	Gender: Female
+	Class: First
+	Age Group: Child
