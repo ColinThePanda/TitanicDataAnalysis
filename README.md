@@ -23,13 +23,13 @@ When the program is run, [the entire dataset](titanic_data.csv) is displayed lik
 
 Additionally, other data values are dynamically computed and displayed like this
 
-``` txt
+```txt
 Survival Rate: 38.4%
 Male Survival Rate: 18.9%
 Female Survival Rate: 74.2%
-Average Age: 23.8
-Average Age Amongst Survivors: 24.0
-Average Age Amongst Non-Survivors: 23.7
+Average Age: 29.7
+Average Age Amongst Survivors: 28.3
+Average Age Amongst Non-Survivors: 30.6
 Oldest Passenger: 80.0
 Youngest Passenger: 0.4
 First Class Survival Rate: 0.63%

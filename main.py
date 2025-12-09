@@ -121,7 +121,8 @@ def valid_property(data : List[TitanicData], property : str):
     return [person for person in data if getattr(person, property) != ""]
 
 def average_age(data : List[TitanicData]):
-    return sum([float(person.age) for person in valid_property(data, "age")]) / len(data)
+    valid_ages = valid_property(data, "age")
+    return sum([float(person.age) for person in valid_ages]) / len(valid_ages)
 
 def average_age_survived(data : List[TitanicData]):
     survivors = [person for person in data if person.survived == "1"]
@@ -260,7 +261,6 @@ def write_analysis(data : List[TitanicData], filepath : str):
 def plot_data(data : List[TitanicData]):
     male, female = survival_rate_gender(data)
     valid_int_ages = [int(float(person.age)) for person in valid_property(data, "age")]
-    mens_ages = [int(float(person.age)) for person in valid_property(data, "age") if person.sex == "male"]
     first_survival_rate = class_survival(data, 1)
     second_survival_rate = class_survival(data, 2)
     third_survival_rate = class_survival(data, 3)
