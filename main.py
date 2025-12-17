@@ -298,7 +298,7 @@ BONUS CHALLENGES:
 """
 
 if __name__ == "__main__":
-    data = read_data("titanic_data.csv")
+    data = read_data("titanic.csv")
     display_data(data)
     print(f"Survival Rate: {survival_rate(data) * 100:.1f}%")
     male, female = survival_rate_gender(data)

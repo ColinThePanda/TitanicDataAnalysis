@@ -1,12 +1,12 @@
 # TitanicDataAnalysis
 
 ![CS2 Assignment](https://img.shields.io/badge/CS2-Assignment-blue)
-[![Dataset](https://img.shields.io/badge/Titanic-Dataset-green)](titanic_data.csv)
+[![Dataset](https://img.shields.io/badge/Titanic-Dataset-green)](titanic.csv)
 [![Analysis](https://img.shields.io/badge/Titanic_Data-Analysis_File-red)](analysis.txt)
 
 ## Printed Info
 
-When the program is run, [the entire dataset](titanic_data.csv) is displayed like this
+When the program is run, [the entire dataset](titanic.csv) is displayed like this
 
 | PassengerId | Survived | Pclass | Name                                              | Sex    | Age | SibSp | Parch | Ticket            | Fare     | Cabin | Embarked | FamilySize |
 |-------------|----------|--------|---------------------------------------------------|--------|-----|-------|-------|-------------------|----------|-------|----------|------------|
